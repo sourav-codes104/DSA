@@ -27,7 +27,7 @@ void col_sum(int arr[][3], int row, int col){
   int col_no =0;
   for (int i = 0; i < col; i++)
   {
-    int sum = 0;
+    int sum = 0; 
     for (int j = 0; j < row; j++)
     {
       sum+=arr[j][i];
